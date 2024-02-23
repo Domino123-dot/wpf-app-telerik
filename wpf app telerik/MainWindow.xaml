@@ -1,12 +1,32 @@
-﻿<Window x:Class="wpf_app_telerik.MainWindow"
+﻿<Window
+       
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_app_telerik"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="wpf_app_telerik.MainWindow"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Budget Calculator" Height="450" Width="800" Background="#FF0C0202">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1.5" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <telerik:Label Content="Main Menu" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="92" FontSize="16" FontFamily="Yu Gothic UI SemiBold" Margin="5,13,0,0"/>
+        <Border Width="1" Margin="102,8,0,0" Background="#8888" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top"/>
+        <telerik:CartesianCustomLineAnnotation HorizontalAlignment="Left" Height="1" Margin="50,350,0,0" VerticalAlignment="Top" Width="48"/>
+        <telerik:Label Content="General" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="92" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="108,13,0,0"/>
+        <Grid HorizontalAlignment="Left" Height="378" VerticalAlignment="Top" Width="258" Margin="1,40,0,0">
+            <telerik:Tile Content="Start" HorizontalAlignment="Center" Height="126" VerticalAlignment="Top" Width="257"/>
+            <telerik:Tile Content="Instruction" HorizontalAlignment="Center" Height="126" VerticalAlignment="Center" Width="256"/>
+            <telerik:Tile x:Name="exitButton" Content="Exit" HorizontalAlignment="Center" Height="126" Margin="0,252,0,0" VerticalAlignment="Top" Width="257">
+                <telerik:Tile.Background>
+                    <ImageBrush TileMode="Tile" ImageSource="/exit.png" Stretch="UniformToFill"/>
+                </telerik:Tile.Background>
+            </telerik:Tile>
+        </Grid>
     </Grid>
 </Window>
