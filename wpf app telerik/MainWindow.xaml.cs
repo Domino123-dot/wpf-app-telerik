@@ -37,5 +37,11 @@ namespace wpf_app_telerik
             Insctruction objectInsctruction = new Insctruction();
             objectInsctruction.Show();
         }
+
+        private void RadButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            Window1 PageObj = new Window1();
+            PageObj.Show();
+        }
     }
 }

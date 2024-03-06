@@ -1,0 +1,55 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Budget_Calc"
+        xmlns:telerik="http://schemas.telerik.com/2008/xaml/presentation" x:Class="Budget_Calc.Window1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFFFE7E7"/>
+                <GradientStop Color="#FFFFABAB" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <telerik:Label Content="Calculations" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="106" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="5,13,0,0"/>
+        <Border Width="1" Margin="110,8,0,0" Background="#8888" HorizontalAlignment="Left" Height="37" VerticalAlignment="Top"/>
+        <telerik:Label Content="General" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="92" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="116,13,0,0"/>
+        <telerik:Label Content="Przychody :" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="106" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="10,50,0,0"/>
+        <telerik:Label Content="Inne źródła :" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="106" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="10,107,0,0"/>
+        <telerik:Label Content="Wydatki :" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="106" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="10,166,0,0"/>
+        <telerik:Label Content="Czynsz :" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="106" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="10,217,0,0"/>
+        <telerik:Label Content="Zakupy :" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="106" FontSize="16" FontFamily="Yu Gothic UI Regular" Margin="10,270,0,0"/>
+        <telerik:RadButton Content="Count" HorizontalAlignment="Left" Height="59" Margin="45,343,0,0" VerticalAlignment="Top" Width="171" Click="RadButton_Click" FontSize="22" Background="#FFFF6962" BorderBrush="#FFFF0B00">
+            <telerik:RadButton.Effect>
+                <DropShadowEffect/>
+            </telerik:RadButton.Effect>
+        </telerik:RadButton>
+        <telerik:RadButton Content="Reset" HorizontalAlignment="Left" Height="59" Margin="246,343,0,0" VerticalAlignment="Top" Width="171" FontSize="22" Background="#FFFF6962" BorderBrush="#FFFF0B00" Click="RadButton_Click_2">
+            <telerik:RadButton.Effect>
+                <DropShadowEffect/>
+            </telerik:RadButton.Effect>
+        </telerik:RadButton>
+        <telerik:RadButton Content="Exit" HorizontalAlignment="Left" Height="59" Margin="448,343,0,0" VerticalAlignment="Top" Width="171" FontSize="22" Background="#FFFF6962" BorderBrush="#FFFF0B00" Click="RadButton_Click_1">
+            <telerik:RadButton.Effect>
+                <DropShadowEffect/>
+            </telerik:RadButton.Effect>
+        </telerik:RadButton>
+        <telerik:Label Content="Your budget" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="126" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="493,22,0,0"/>
+        <telerik:Label Content="Your expenses" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="493,93,0,0"/>
+        <telerik:Label Content="Your saldo" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="493,164,0,0"/>
+        <telerik:Label x:Name="saldo" Content="0 zł" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="493,202,0,0" FontWeight="Bold"/>
+        <telerik:Label x:Name="expenses" Content="0 zł" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="493,132,0,0" FontWeight="Bold"/>
+        <telerik:Label x:Name="budget" Content="0 zł" HorizontalAlignment="Left" Height="40" VerticalAlignment="Top" Width="137" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="493,61,0,0" FontWeight="Bold"/>
+        <TextBox MaxLength="9" x:Name="incomeTextBox" HorizontalAlignment="Left" Height="25" Margin="110,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="0" Background="#FFD2D2D2"/>
+        <TextBox MaxLength="9" x:Name="incomeTextBoxB" HorizontalAlignment="Left" Height="26" Margin="110,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="0" Background="#FFD2D2D2"/>
+        <TextBox MaxLength="9" x:Name="expensesTextBoxA" HorizontalAlignment="Left" Height="26" Margin="110,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="0" Background="#FFD2D2D2"/>
+        <TextBox MaxLength="9" x:Name="expensesTextBoxB" HorizontalAlignment="Left" Height="26" Margin="110,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="0" Background="#FFD2D2D2"/>
+        <TextBox MaxLength="9" x:Name="expensesTextBoxB2" HorizontalAlignment="Left" Height="26" Margin="110,270,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="112" Text="0" Background="#FFD2D2D2"/>
+        <telerik:Label Content="Twoje wydatki są większe od zarobków !" x:Name="warningDisplay" HorizontalAlignment="Left" Height="39" VerticalAlignment="Top" Width="368" FontSize="20" FontFamily="Yu Gothic UI Regular" Margin="372,258,0,0" Foreground="#FFAB0000" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
