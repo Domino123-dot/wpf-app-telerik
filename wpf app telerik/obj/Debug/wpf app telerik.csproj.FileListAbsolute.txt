@@ -1,0 +1,51 @@
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Chart.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.GridView.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Input.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Navigation.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.ScheduleView.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Spreadsheet.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Data.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Documents.Core.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Documents.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Documents.Spreadsheet.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Zip.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Chart.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.GridView.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Input.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Navigation.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.ScheduleView.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Controls.Spreadsheet.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Data.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Documents.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Documents.Core.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Documents.Spreadsheet.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Telerik.Windows.Zip.xml
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\de\Telerik.Windows.Controls.resources.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\es\Telerik.Windows.Controls.resources.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\fr\Telerik.Windows.Controls.resources.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\it\Telerik.Windows.Controls.resources.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\nl\Telerik.Windows.Controls.resources.dll
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\tr\Telerik.Windows.Controls.resources.dll
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\wpf app telerik.csproj.AssemblyReference.cache
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\MainWindow.g.cs
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\App.g.cs
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\MainWindow.baml
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\wpf app telerik.csproj.GenerateResource.cache
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\wpf app telerik.csproj.CoreCompileInputs.cache
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\wpf app telerik.csproj.CopyComplete
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Budget Calc.exe.config
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Budget Calc.exe
+D:\Visual\wpf app telerik\wpf app telerik\bin\Debug\Budget Calc.pdb
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget Calc_MarkupCompile.cache
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget Calc_MarkupCompile.lref
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget Calc.g.resources
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget_Calc.Properties.Resources.resources
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget Calc.exe.licenses
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget Calc.exe
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Budget Calc.pdb
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Insctruction.g.cs
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Insctruction.baml
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Window1.g.cs
+D:\Visual\wpf app telerik\wpf app telerik\obj\Debug\Window1.baml
